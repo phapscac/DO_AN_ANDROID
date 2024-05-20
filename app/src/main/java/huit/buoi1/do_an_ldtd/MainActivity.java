@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         // Đầu tiên, lấy ảnh từ drawable bằng ID của nó
         Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.tai);
          tx1 = findViewById(R.id.tx1);
-
+        tx1.setText("");
         callAPI(getByteArrayFromBitmap(bitmap));
     }
     private byte[] getByteArrayFromBitmap(Bitmap bitmap) {
