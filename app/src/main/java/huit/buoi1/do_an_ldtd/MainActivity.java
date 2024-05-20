@@ -8,9 +8,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -27,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         // Đầu tiên, lấy ảnh từ drawable bằng ID của nó
         Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.tai);
          tx1 = findViewById(R.id.tx1);
+        tx1.setText("12345");
 
         callAPI(getByteArrayFromBitmap(bitmap));
     }
