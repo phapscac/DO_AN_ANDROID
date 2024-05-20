@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hinhnendn"
+    tools:context=".FragDangKi"
+    >
+
+    <EditText
+        android:id="@+id/edtTKdk"
+        android:layout_width="251dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="256dp"
+        android:background="@drawable/plaintext_dn"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Tên đăng nhập"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtTKDK_XN"
+        android:layout_width="244dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="464dp"
+        android:background="@drawable/plaintext_dn"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Xác nhận mật khẩu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtmk_dk"
+        android:layout_width="244dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/plaintext_dn"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Nhập mật khẩu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="114dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/store"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.356"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/butDangKi"
+        android:layout_width="220dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="576dp"
+        android:background="#0C80DC"
+        android:text="Đăng kí"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.596"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
